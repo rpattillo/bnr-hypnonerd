@@ -18,6 +18,8 @@
 		9C9EC5D51A411B1500785B92 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9EC5D41A411B1500785B92 /* HypnosisViewController.m */; };
 		9C9EC5D81A42551F00785B92 /* ReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9EC5D71A42551F00785B92 /* ReminderViewController.m */; };
 		9C9EC5DA1A42561000785B92 /* ReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9EC5D91A42561000785B92 /* ReminderViewController.xib */; };
+		9C9EC5E11A426F8300785B92 /* QuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9EC5DF1A426F8300785B92 /* QuizViewController.m */; };
+		9C9EC5E21A426F8300785B92 /* QuizViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9EC5E01A426F8300785B92 /* QuizViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		9C9EC5D61A42551F00785B92 /* ReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderViewController.h; sourceTree = "<group>"; };
 		9C9EC5D71A42551F00785B92 /* ReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderViewController.m; sourceTree = "<group>"; };
 		9C9EC5D91A42561000785B92 /* ReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderViewController.xib; sourceTree = "<group>"; };
+		9C9EC5DE1A426F8300785B92 /* QuizViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizViewController.h; sourceTree = "<group>"; };
+		9C9EC5DF1A426F8300785B92 /* QuizViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizViewController.m; sourceTree = "<group>"; };
+		9C9EC5E01A426F8300785B92 /* QuizViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +106,9 @@
 				9C9EC5B71A41189300785B92 /* Images.xcassets */,
 				9C9EC5B91A41189300785B92 /* LaunchScreen.xib */,
 				9C9EC5B41A41189300785B92 /* Main.storyboard */,
+				9C9EC5DE1A426F8300785B92 /* QuizViewController.h */,
+				9C9EC5DF1A426F8300785B92 /* QuizViewController.m */,
+				9C9EC5E01A426F8300785B92 /* QuizViewController.xib */,
 				9C9EC5D61A42551F00785B92 /* ReminderViewController.h */,
 				9C9EC5D71A42551F00785B92 /* ReminderViewController.m */,
 				9C9EC5D91A42561000785B92 /* ReminderViewController.xib */,
@@ -217,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C9EC5E21A426F8300785B92 /* QuizViewController.xib in Resources */,
 				9C9EC5DA1A42561000785B92 /* ReminderViewController.xib in Resources */,
 				9C9EC5B61A41189300785B92 /* Main.storyboard in Resources */,
 				9C9EC5BB1A41189300785B92 /* LaunchScreen.xib in Resources */,
@@ -241,6 +250,7 @@
 				9C9EC5B31A41189300785B92 /* ViewController.m in Sources */,
 				9C9EC5D21A411A4900785B92 /* HypnosisView.m in Sources */,
 				9C9EC5D81A42551F00785B92 /* ReminderViewController.m in Sources */,
+				9C9EC5E11A426F8300785B92 /* QuizViewController.m in Sources */,
 				9C9EC5B01A41189300785B92 /* AppDelegate.m in Sources */,
 				9C9EC5AD1A41189300785B92 /* main.m in Sources */,
 				9C9EC5D51A411B1500785B92 /* HypnosisViewController.m in Sources */,
