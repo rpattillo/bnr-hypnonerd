@@ -11,6 +11,21 @@
 
 @implementation HypnosisViewController
 
+#pragma mark - Initializers
+
+-(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+   self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+   
+   if ( self ) {
+      self.tabBarItem.title = @"Hypnotize";
+      UIImage *i = [UIImage imageNamed:@"Hypno"];
+      self.tabBarItem.image = i;
+   }
+   
+   return self;
+}
+
 
 #pragma mark - Overrides
 

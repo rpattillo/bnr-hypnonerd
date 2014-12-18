@@ -17,6 +17,24 @@
 
 @implementation ReminderViewController
 
+#pragma mark - Initializers
+
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+   self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+
+   if ( self ) {
+      self.tabBarItem.title = @"Reminder";
+      UIImage *i = [UIImage imageNamed:@"Time"];
+      self.tabBarItem.image = i;
+   }
+   
+   return self;
+}
+
+
+#pragma mark - Outlets
+
 - (IBAction)addReminder:(id)sender
 {
    NSDate *date = self.datePicker.date;
