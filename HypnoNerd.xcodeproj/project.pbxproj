@@ -15,6 +15,7 @@
 		9C9EC5BB1A41189300785B92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C9EC5B91A41189300785B92 /* LaunchScreen.xib */; };
 		9C9EC5C71A41189300785B92 /* HypnoNerdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9EC5C61A41189300785B92 /* HypnoNerdTests.m */; };
 		9C9EC5D21A411A4900785B92 /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9EC5D11A411A4900785B92 /* HypnosisView.m */; };
+		9C9EC5D51A411B1500785B92 /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C9EC5D41A411B1500785B92 /* HypnosisViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		9C9EC5C61A41189300785B92 /* HypnoNerdTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoNerdTests.m; sourceTree = "<group>"; };
 		9C9EC5D01A411A4900785B92 /* HypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisView.h; sourceTree = "<group>"; };
 		9C9EC5D11A411A4900785B92 /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisView.m; sourceTree = "<group>"; };
+		9C9EC5D31A411B1500785B92 /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		9C9EC5D41A411B1500785B92 /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,16 +87,18 @@
 		9C9EC5A91A41189300785B92 /* HypnoNerd */ = {
 			isa = PBXGroup;
 			children = (
-				9C9EC5D01A411A4900785B92 /* HypnosisView.h */,
-				9C9EC5D11A411A4900785B92 /* HypnosisView.m */,
 				9C9EC5AE1A41189300785B92 /* AppDelegate.h */,
 				9C9EC5AF1A41189300785B92 /* AppDelegate.m */,
-				9C9EC5B11A41189300785B92 /* ViewController.h */,
-				9C9EC5B21A41189300785B92 /* ViewController.m */,
-				9C9EC5B41A41189300785B92 /* Main.storyboard */,
+				9C9EC5D01A411A4900785B92 /* HypnosisView.h */,
+				9C9EC5D11A411A4900785B92 /* HypnosisView.m */,
+				9C9EC5D31A411B1500785B92 /* HypnosisViewController.h */,
+				9C9EC5D41A411B1500785B92 /* HypnosisViewController.m */,
 				9C9EC5B71A41189300785B92 /* Images.xcassets */,
 				9C9EC5B91A41189300785B92 /* LaunchScreen.xib */,
+				9C9EC5B41A41189300785B92 /* Main.storyboard */,
 				9C9EC5AA1A41189300785B92 /* Supporting Files */,
+				9C9EC5B11A41189300785B92 /* ViewController.h */,
+				9C9EC5B21A41189300785B92 /* ViewController.m */,
 			);
 			path = HypnoNerd;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 				9C9EC5D21A411A4900785B92 /* HypnosisView.m in Sources */,
 				9C9EC5B01A41189300785B92 /* AppDelegate.m in Sources */,
 				9C9EC5AD1A41189300785B92 /* main.m in Sources */,
+				9C9EC5D51A411B1500785B92 /* HypnosisViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
