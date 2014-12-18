@@ -33,6 +33,12 @@
    self.window.rootViewController = tabBarController;
    [self.window makeKeyAndVisible];
    
+   UIUserNotificationType types = UIUserNotificationTypeAlert
+   | UIUserNotificationTypeSound
+   | UIUserNotificationTypeBadge;
+   UIUserNotificationSettings *noticeSettings = [UIUserNotificationSettings settingsForTypes:types categories:nil];
+   [[UIApplication sharedApplication] registerUserNotificationSettings:noticeSettings];
+   
    return YES;
 }
 
