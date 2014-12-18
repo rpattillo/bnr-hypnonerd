@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "HypnosisViewController.h"
+#import "ReminderViewController.h"
 
 @interface AppDelegate ()
 
@@ -22,8 +23,11 @@
    self.window.backgroundColor = [UIColor whiteColor];
    
    HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
+
+   NSBundle *appBundle = [NSBundle mainBundle];
+   ReminderViewController *rvc = [[ReminderViewController alloc] initWithNibName:@"ReminderViewController" bundle:appBundle];
    
-   self.window.rootViewController = hvc;
+   self.window.rootViewController = rvc;
    [self.window makeKeyAndVisible];
    
    return YES;
