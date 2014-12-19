@@ -33,6 +33,16 @@
 }
 
 
+#pragma mark - Overrides
+
+- (void)viewDidLoad
+{
+   [super viewDidLoad];
+   
+   NSLog(@"ReminderViewController loaded its view.");
+}
+
+
 #pragma mark - Outlets
 
 - (IBAction)addReminder:(id)sender

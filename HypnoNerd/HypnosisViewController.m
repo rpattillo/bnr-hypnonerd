@@ -13,7 +13,7 @@
 
 #pragma mark - Initializers
 
--(instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
    
@@ -29,10 +29,18 @@
 
 #pragma mark - Overrides
 
--(void)loadView
+- (void)loadView
 {
    HypnosisView *backgroundView = [[HypnosisView alloc] init];
    self.view = backgroundView;
+}
+
+
+- (void)viewDidLoad
+{
+   [super viewDidLoad];
+   
+   NSLog(@"HypnosisViewController loaded its view.");
 }
 
 @end
