@@ -9,6 +9,13 @@
 #import "HypnosisViewController.h"
 #import "HypnosisView.h"
 
+@interface HypnosisViewController()
+
+@property (nonatomic, strong) HypnosisView *view;
+
+@end
+
+
 @implementation HypnosisViewController
 
 #pragma mark - Initializers
@@ -33,6 +40,40 @@
 {
    HypnosisView *backgroundView = [[HypnosisView alloc] init];
    self.view = backgroundView;
+   
+   NSArray *colors = @[@"Red", @"Green", @"Blue"];
+   UISegmentedControl *colorSwitcher = [[UISegmentedControl alloc] initWithItems:colors];
+   
+   CGRect switcherFrame = [colorSwitcher frame];
+   switcherFrame.origin = CGPointMake(120, 120);
+   colorSwitcher.frame = switcherFrame;
+   
+   SEL action = @selector(updateColors:);
+   [colorSwitcher addTarget:self action:action forControlEvents:UIControlEventValueChanged];
+   
+   [backgroundView addSubview:colorSwitcher];
+
+   
+   
 }
+
+
+-(void)updateColors:(UISegmentedControl *)control
+{
+   switch(control.selectedSegmentIndex) {
+      case 0:
+         [self.view setCircleColor:[UIColor redColor]];
+         break;
+         
+      case 1:
+         [self.view setCircleColor:[UIColor greenColor]];
+         break;
+         
+      case 2:
+         [self.view setCircleColor:[UIColor blueColor]];
+         break;
+   }
+}
+
 
 @end

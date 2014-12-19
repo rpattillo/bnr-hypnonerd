@@ -24,7 +24,6 @@
    
    HypnosisViewController *hvc = [[HypnosisViewController alloc] init];
 
-   NSBundle *appBundle = [NSBundle mainBundle];
    ReminderViewController *rvc = [[ReminderViewController alloc] init];
    
    UITabBarController *tabBarController = [[UITabBarController alloc] init];

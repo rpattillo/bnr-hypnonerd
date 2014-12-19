@@ -8,11 +8,6 @@
 
 #import "HypnosisView.h"
 
-@interface HypnosisView ()
-
-@property (strong, nonatomic) UIColor *circleColor;
-
-@end
 
 @implementation HypnosisView
 
@@ -38,6 +33,7 @@
    _circleColor = circleColor;
    [self setNeedsDisplay];
 }
+
 
 #pragma mark - Overrides
 
